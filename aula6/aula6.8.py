@@ -1,9 +1,11 @@
-a = 1
+qtde = 0
 soma = 0
 while True :
     a = int(input("Digite um número :"))
-    soma = a + soma
+    soma += x
     print(soma)
     if a == 0:
-        print(a)
         break
+    qtde += 1
+
+print(f"A soma é {soma} e a média é {soma/qtde}")
