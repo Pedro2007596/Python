@@ -1,8 +1,8 @@
 num = int(input("Digite o seu número : "))
-i = 1
-cont = 0
-while i <= num :
-   print(i)
-   print(f"O numero")
-   i = 1 + i
+res = 1
+while num > 0 :
+   res = num * res
+   num = num - 1
+print(res)
+
 
